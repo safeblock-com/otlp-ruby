@@ -20,6 +20,7 @@ COPY . /app
 
 # =console rails server -p 8080
 ARG OTEL_TRACES_EXPORTER
+ARG OTEL_LOG_LEVEL
 
 EXPOSE 8080
 
